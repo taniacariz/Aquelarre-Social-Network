@@ -1,66 +1,66 @@
-import { muro } from "../templates/templatemuro.js";
-import { login } from "../templates/templatelogin.js";
-import { register } from "../templates/templateregister.js";
-import { aboutUs } from "../templates/templateabout-us.js";
-import { recover } from "../templates/templaterecover.js";
-import { muroAstrología } from "../templates/templatemuroastrologia.js";
-import { perfil } from "../templates/templateperfil.js";
+import { muro } from '../templates/templatemuro.js';
+import { login } from '../templates/templatelogin.js';
+import { register } from '../templates/templateregister.js';
+import { aboutUs } from '../templates/templateabout-us.js';
+import { recover } from '../templates/templaterecover.js';
+import { muroAstrología } from '../templates/templatemuroastrologia.js';
+import { perfil } from '../templates/templateperfil.js';
 
 const showTemplate = (hash) => {
-  const containerRoot = document.getElementById("root");
-  containerRoot.innerHTML = "";
+  const containerRoot = document.getElementById('root');
+  containerRoot.innerHTML = '';
 
   switch (hash) {
-    case "#/":
+    case '#/':
       containerRoot.appendChild(login());
       break;
-    case "#/login":
+    case '#/login':
       containerRoot.appendChild(login());
       break;
-    case "#/register":
+    case '#/register':
       containerRoot.appendChild(register());
       break;
-    case "#/recover":
+    case '#/recover':
       containerRoot.appendChild(recover());
       break;
-    case "#/muro":
+    case '#/muro':
       containerRoot.appendChild(muro());
       break;
-    case "#/astrologia":
+    case '#/astrologia':
       containerRoot.appendChild(muroAstrología());
       break;
-    case "#/perfil":
+    case '#/perfil':
       containerRoot.appendChild(perfil());
       break;
-    case "#/nosotras":
+    case '#/nosotras':
       containerRoot.appendChild(aboutUs());
       break;
     default:
-      containerRoot.innerHTML = "ERROR";
+      containerRoot.innerHTML = 'ERROR';
       break;
   }
 };
 
 export const showRoute = (hash) => {
-  if (hash === "#/login") {
+  if (hash === '#/login') {
     return showTemplate(hash);
   }
-  if (hash === "#/register") {
+  if (hash === '#/register') {
     return showTemplate(hash);
   }
-  if (hash === "#/recover") {
+  if (hash === '#/recover') {
     return showTemplate(hash);
   }
-  if (hash === "#/muro") {
+  if (hash === '#/muro') {
     return showTemplate(hash);
   }
-  if (hash === "#/perfil") {
+  if (hash === '#/perfil') {
     return showTemplate(hash);
   }
-  if (hash === "#/astrologia") {
+  if (hash === '#/astrologia') {
     return showTemplate(hash);
   }
-  if (hash === "#/nosotras") {
+  if (hash === '#/nosotras') {
     return showTemplate(hash);
   }
   return showTemplate(hash);
@@ -69,7 +69,7 @@ export const showRoute = (hash) => {
 // Cambia página frente a cambio de #
 
 window.addEventListener(
-  "hashchange",
+  'hashchange',
   () => {
     showRoute(window.location.hash);
   },
