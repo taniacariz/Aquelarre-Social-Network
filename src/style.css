@@ -1,0 +1,499 @@
+/*background*/
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 700px;
+  background-color: rgb(26, 24, 36);
+  background-image: url(images/Fondo.png);
+  background-size: 50%;
+}
+
+/*Primera página LOGIN*/
+
+.portada {
+  display: block;
+  height: 120px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: center;
+  max-width: 400px;
+}
+
+#formLogin {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.btnLogin {
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 80%;
+  border: none;
+}
+
+.btnLogin:hover {
+  opacity: 0.6;
+}
+
+.inputLogin {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  border-bottom: transparent;
+  opacity: 80%;
+  margin: 15px;
+  font-size: 18px;
+  border: none;
+}
+
+.inputLogin:hover {
+  opacity: 0.6;
+}
+
+#google {
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+#elementosGoogle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.textos {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 3px;
+}
+
+#aqui {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#aqui:hover {
+  opacity: 0.6;
+}
+
+#aquiTwo {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#aquiTwo:hover {
+  opacity: 0.6;
+}
+
+/*Footer*/
+
+.divFooter {
+  position: absolute;
+  top: 610px;
+  left: 10px;
+  right: 10px;
+}
+
+.divFooterMuro {
+  position: absolute;
+  top: 655px;
+  left: 10px;
+  right: 10px;
+}
+
+.centrarRedes {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  color: #ffffff;
+  border: transparent;
+  opacity: 80%;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fab:hover {
+  opacity: 0.6;
+}
+
+#nombres {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.divFooterTwo {
+  margin-top: 100px;
+}
+
+/*Página Registro General*/
+
+#formRegistro {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+#confpassword {
+  margin-top: -20px;
+}
+
+.inputRegistro {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  max-width: 250px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 80%;
+  margin: 15px;
+  border: none;
+}
+
+#btnConfirmar {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 80%;
+  border: none;
+}
+
+#btnConfirmar:hover {
+  opacity: 0.6;
+}
+
+#btnCancelar {
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 80%;
+  border: none;
+}
+
+#btnCancelar:hover {
+  opacity: 0.6;
+}
+
+/*Página Registro General*/
+
+#formRestablecimiento {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+#btnConfirmarRecover {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 80%;
+  border: none;
+}
+
+#btnConfirmarRecover:hover {
+  opacity: 0.6;
+}
+
+/*Tercera página - MURO*/
+
+.portadaMuro {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 350px;
+  height: 100px;
+}
+
+.contenedorMuro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.headerMuro {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.inputPost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  max-width: 330px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 30px;
+  opacity: 80%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.btnsMuro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnCrud {
+  font-family: "Ubuntu", sans-serif;
+  width: 70px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 10px;
+  opacity: 80%;
+  border: none;
+}
+
+.btnCrud:hover {
+  opacity: 0.6;
+}
+
+#btnPublicar {
+  font-family: "Ubuntu", sans-serif;
+  width: 100px;
+  height: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 10px;
+  opacity: 80%;
+  margin-right: 30px;
+  border: none;
+  margin-top: -20px;
+}
+
+#btnPublicar:hover {
+  opacity: 0.6;
+}
+
+#btnEdit {
+  margin-left: 250px;
+}
+
+#contenedorPost {
+  width: 420px;
+  height: 300px;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #777c77a4;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+  display: none;
+}
+
+/*Barra de Navegación*/
+
+li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.a:hover {
+  opacity: 0.6;
+  background-color: rgb(255, 255, 255);
+}
+
+.iconMenu {
+  width: 20px;
+}
+
+.dropbtn {
+  background-color: rgb(65, 64, 77);
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: absolute;
+  top: 15px;
+  right: 5%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  /*background-color: rgba(51, 44, 56, 0.13);*/
+  min-width: 100px;
+  /*box-shadow: 0px 8px 16px 0px rgba(65, 63, 63, 0.2);*/
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #e5c8ffc9;
+  color: rgb(41, 37, 37);
+  opacity: 50%;
+  font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* About Us */
+
+#textoAboutUs {
+  margin-top: 50px;
+  text-align: center;
+  width: 380px;
+  color: #ffffff;
+}
+
+.ordenNosotras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosotras {
+  margin-top: 50px;
+  height: 130px;
+  max-height: 100px;
+}
+
+/* Muro Astrología */
+
+#portadaAstro {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 350px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+#astro {
+  display: block;
+  height: 100px;
+  width: 380px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.headerMuroAstro {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 380px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
