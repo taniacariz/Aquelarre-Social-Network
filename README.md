@@ -51,7 +51,7 @@ _Flujo de páginas iniciales. Home, Registro y Recuperación de contraseña._
 
 _Pantallas secundarias._ 
 
-<p align="center"><img src=""></p>
+<p align="center"><img src="https://github.com/tanimikyu/Aquelarre-Social-Network/blob/master/src/images/PantallaMuro.png"></p>
 
 
 ## Gracias por haber llegado hasta aquí <3 :)
